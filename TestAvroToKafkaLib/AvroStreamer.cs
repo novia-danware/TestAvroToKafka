@@ -44,7 +44,7 @@
                     switch (dr.GetName(i))
                     {
                         case "entity_id":
-                            entity.entity_id = dr.GetString(i);
+                            entity.entity_id = dr.GetInt32(i).ToString();
                             break;
                         case "entity_type":
                             entity.entity_type = dr.GetString(i);

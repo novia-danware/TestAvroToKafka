@@ -11,7 +11,7 @@
         public Startup() =>
             Configuration = new ConfigurationBuilder()
                 .AddJsonFile("appsettings.json")
-                .AddUserSecrets<AvroStreamerOptions>()
+                .AddUserSecrets<Program>()
                 .Build();
 
         public void ConfigureServices(IServiceCollection services) =>
