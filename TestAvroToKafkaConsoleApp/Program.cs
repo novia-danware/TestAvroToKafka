@@ -2,12 +2,13 @@
 {
     using System;
     using System.Diagnostics;
+    using System.Threading.Tasks;
     using Microsoft.Extensions.DependencyInjection;
     using TestAvroToKafkaLib;
 
     class Program
     {
-        static async void Main(string[] args)
+        static async Task Main(string[] args)
         {
             // Get AvroStreamer from container
             var streamer = GetServiceProvider()
