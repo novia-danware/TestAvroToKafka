@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31515.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAvroToKafkaUnitTests", "TestAvroToKafkaUnitTests\TestAvroToKafkaUnitTests.csproj", "{EAECDB68-D729-4DC2-941E-F265F9723A26}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAvroToKafkaConsoleApp", "TestAvroToKafkaConsoleApp\TestAvroToKafkaConsoleApp.csproj", "{3E5CEAD6-D481-4DFB-B137-3542DE06C807}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TestAvroToKafkaLib", "TestAvroToKafkaLib\TestAvroToKafkaLib.csproj", "{031289C3-03DF-40A4-BE24-08B358AE4B6A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{46636998-A14E-46EB-9CE2-D9A1C4819B8D}"
+	ProjectSection(SolutionItems) = preProject
+		ReadMe.md = ReadMe.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EAECDB68-D729-4DC2-941E-F265F9723A26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EAECDB68-D729-4DC2-941E-F265F9723A26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EAECDB68-D729-4DC2-941E-F265F9723A26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EAECDB68-D729-4DC2-941E-F265F9723A26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E5CEAD6-D481-4DFB-B137-3542DE06C807}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E5CEAD6-D481-4DFB-B137-3542DE06C807}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E5CEAD6-D481-4DFB-B137-3542DE06C807}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E5CEAD6-D481-4DFB-B137-3542DE06C807}.Release|Any CPU.Build.0 = Release|Any CPU
+		{031289C3-03DF-40A4-BE24-08B358AE4B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{031289C3-03DF-40A4-BE24-08B358AE4B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{031289C3-03DF-40A4-BE24-08B358AE4B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{031289C3-03DF-40A4-BE24-08B358AE4B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1F3A5265-079D-4AD7-AA19-0A761CBC0EE7}
+	EndGlobalSection
+EndGlobal

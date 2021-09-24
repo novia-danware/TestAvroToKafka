@@ -1,0 +1,19 @@
+{
+  "namespace": "Schema",
+  "type": "record",
+  "name": "Entity",
+  "fields": [
+    {
+      "name": "entity_id",
+      "type": "string"
+    },
+    {
+      "name": "entity_type",
+      "type": "string"
+    },
+    {
+      "name": "name",
+      "type": "string"
+    }
+  ]
+}
