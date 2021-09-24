@@ -1,7 +1,8 @@
-- Ensure the startup project is __TestAvroToKafkaConsoleApp__
+- Ensure the startup project is __TestAvroToKafkaConsoleApp__ (right-click the project and select _Set as Startup Project_)
 - Right-click the project and select _Manage User Secrets_
 - Modify the file content as shown below (replacing the connection string as appropriate)
 
+**secrets.json**
 ```json
 {
   "AvroStreamerOptions": {
@@ -12,6 +13,7 @@
 
 - Check the values in `appsettings.json` are correct
 
+**appsettings.json**
 ```json
 {
   "AvroStreamerOptions": {
